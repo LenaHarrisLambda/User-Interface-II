@@ -1,1 +1,172 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End Reset */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #D6E0EB;
+	color: #072536;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	color: #072536;
+	text-decoration: none;
+}
+
+a {
+	color: #072536;
+	text-decoration: none;
+}
+
+/* Header */
+header {
+	background-color: #A6BCD3;
+	padding: 2%;
+}
+
+.main-header {
+	display: flex;
+	margin: 1% 2% 1% 2%;
+}
+
+.header-image {
+	width: 720px;
+}
+
+.header-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 50px 120px 50px 240px;
+	height: inherit;
+}
+
+.header-nav {
+	background-color: #84A2C2;
+	margin-left: 1%;
+	padding: 10px;
+	width: 75px;
+	text-align: center;
+}
+
+.header-nav:hover {
+	background-color: #5179A4;
+}
+
+.header-link {
+	background-color: #A6BCD3;
+	padding: 10px;
+	width: 150px;
+	text-align: center;
+}
+
+.header-link:hover {
+	background-color: #84A2C2;
+}
+
+/* Footer */
+footer {
+	background-color: #A6BCD3;
+	height: inherit;
+	padding: 4% 0;
+	text-align: center;
+}
+
+.footer-link {
+	background-color: #84A2C2;
+	margin-left: 1%;
+	padding: 10px;
+	width: 75px;
+	text-align: center;
+}
+
+.footer-link:hover {
+	background-color: #5179A4;
+}
+
+.social {
+	margin-top: 1%;
+}
+
+/* Headings */
+.headings {
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 1%;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+	margin-bottom: 1%;
+}
+
+/* Images */
+.icons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 1% 1% 1%;
+}
+
+.image {
+	height: 300px;
+	width: 300px;
+}
+
+.image-and-text {
+	display: flex;
+	flex-direction: column;
+	padding: 1%;
+	text-align: center;
+}

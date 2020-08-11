@@ -73,6 +73,7 @@ header {
 }
 
 .header-image {
+	height: 368px;
 	width: 720px;
 }
 
@@ -169,4 +170,160 @@ h3 {
 	flex-direction: column;
 	padding: 1%;
 	text-align: center;
+}
+
+/* 800px */
+@media(max-width: 800px)
+{
+	/* Header */
+	header h1 {
+		text-align: center;
+	}
+
+	.nav-links {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.main-header {
+		display: flex;
+		flex-direction: column;
+		margin: 1% 2% 1% 2%;
+	}
+	
+	.header-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin: 50px 120px 50px 240px;
+		height: inherit;
+	}
+
+	.header-link {
+		padding: 10px;
+		width: 150px;
+		text-align: center;
+	}
+
+	/* Images */
+	.icons {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin: 0 1% 1% 1%;
+	}
+
+	.image {
+		height: 300px;
+		width: 300px;
+	}
+
+	/* Footer */
+	.social {
+		margin-top: 2%;
+	}
+
+	h3 {
+		margin-bottom: 2%;
+	}
+}
+
+/* 500px */
+@media(max-width: 500px)
+{
+	/* Header */
+	.header-image {
+		width: 235px;
+		width: 460px;
+	}
+
+	.header-text {
+		margin: 0 auto;
+		width: 80%;
+		text-align: center;
+	}
+
+	/* Images */
+	.image {
+		height: 200px;
+		width: 200px;
+	}
+
+	/* Footer */
+	.social {
+		margin-top: 3%;
+	}
+
+	h3 {
+		margin-bottom: 3%;
+	}
+}
+
+/* Stretch Styles */
+/* 1200px */
+@media(max-width: 1200px)
+{
+	/* Header */
+	.main-header {
+		margin: 1% 2% 1% 2%;
+	}
+	
+	.header-image {
+		width: 720px;
+	}
+
+	.header-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin: 50px 50px 50px 50px;
+		height: inherit;
+		width: 80%;
+	}
+
+	.header-link {
+		padding: 10px;
+		width: 150px;
+		text-align: center;
+	}
+
+	/* Images */
+	.image {
+		height: 250px;
+		width: 250px;
+	}
+}
+
+/* 360px */
+@media(max-width: 360px)
+{
+	/* Header */
+	.header-image {
+		height: 169px;
+		width: 330px;
+	}
+
+	.header-text {
+		margin: 0 auto;
+		width: 80%;
+		text-align: center;
+	}
+	
+	/* Images */
+	.image {
+		height: 150px;
+		width: 150px;
+	}
+
+	/* Footer */
+	.social {
+		margin-top: 4%;
+	}
+
+	h3 {
+		margin-bottom: 4%;
+	}
 }
